@@ -1,0 +1,205 @@
+{
+  "id": "eb3ae0e7-0ed5-4edd-8fe2-d62f5199b167",
+  "version": "2.0",
+  "name": "InoveTeste",
+  "url": "https://inoveteste.com.br/",
+  "tests": [{
+    "id": "7c1d9bf2-4219-47b0-9d52-3720462a8509",
+    "name": "CT01EnviarMensagem ",
+    "commands": [{
+      "id": "a47bdbdf-7ca0-461f-a6fc-d64be74cfd4c",
+      "comment": "",
+      "command": "open",
+      "target": "https://inoveteste.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e805daf0-e796-4783-b2d8-f7816b98828f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qodef-vertical-align-containers:nth-child(1) .qodef-icon-font-elegant",
+      "targets": [
+        ["css=.qodef-vertical-align-containers:nth-child(1) .qodef-icon-font-elegant", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9678cd26-cd40-4019-bb0f-55cbe99ef9e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sticky-nav-menu-item-5643 .item_text",
+      "targets": [
+        ["css=#sticky-nav-menu-item-5643 .item_text", "css:finder"],
+        ["xpath=//li[@id='sticky-nav-menu-item-5643']/a/span/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/nav/ul/li[5]/a/span/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e12a9d6-99db-4a3a-b72c-a8bd35f6ae4d",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#wpcf7-f616-p598-o1 .qodef-column:nth-child(1) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15221591-4cce-4c22-b1a7-22029da0f4fd",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#wpcf7-f616-p598-o1 .qodef-column:nth-child(1) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31b4a22f-5895-476c-8e70-9c23e12e93dc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=#wpcf7-f616-p598-o1 .qodef-column:nth-child(2) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div[2]/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c641e3a7-7e5f-412e-8b39-0d8631f50ff5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=assunto",
+      "targets": [
+        ["name=assunto", "name"],
+        ["css=.assunto > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='assunto']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[3]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f309129-4984-43d4-aa9a-b67123a10435",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=mensagem",
+      "targets": [
+        ["name=mensagem", "name"],
+        ["css=div:nth-child(4) > .mensagem > .wpcf7-form-control", "css:finder"],
+        ["xpath=//textarea[@name='mensagem']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[4]/span[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "121c386c-2979-4222-bbd4-0745bc6d07db",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#wpcf7-f616-p598-o1 .qodef-column:nth-child(1) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab5e42b9-c810-4891-b9be-d204852665f8",
+      "comment": "Preenche os campos do formulário",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4de75b16-8923-4fc1-9ad5-b3236eceb4b2",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=#wpcf7-f616-p598-o1 .qodef-column:nth-child(1) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": "Duda Melo"
+    }, {
+      "id": "14d8b2ff-5232-40c1-a532-c52704582466",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=#wpcf7-f616-p598-o1 .qodef-column:nth-child(2) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[2]/div/div[2]/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span[2]/input", "xpath:position"]
+      ],
+      "value": "Dudamelo82@gmail.com"
+    }, {
+      "id": "d4026ef4-a992-4959-8935-480804a03a9d",
+      "comment": "",
+      "command": "type",
+      "target": "name=assunto",
+      "targets": [
+        ["name=assunto", "name"],
+        ["css=.assunto > .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='assunto']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[3]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/span[2]/input", "xpath:position"]
+      ],
+      "value": "Valor do livro impresso"
+    }, {
+      "id": "c29db696-9c16-4dfb-bd2f-a339f9624151",
+      "comment": "",
+      "command": "type",
+      "target": "name=mensagem",
+      "targets": [
+        ["name=mensagem", "name"],
+        ["css=.wpcf7-form-control:nth-child(2)", "css:finder"],
+        ["xpath=//textarea[@name='mensagem']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[4]/span[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Qual o valor do livro impresso para o cep 70765050?"
+    }, {
+      "id": "35f34140-b227-4916-ac85-84f031c8964d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5) .wpcf7-form-control",
+      "targets": [
+        ["css=div:nth-child(5) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@value='Enviar Mensagem']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f616-p598-o1']/form/div[5]/center/input", "xpath:idRelative"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea0b69e9-5ba7-4dbc-ac01-af3038b46178",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8d0a7aa6-bb68-4e38-a44d-098ef7bfd579",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7c1d9bf2-4219-47b0-9d52-3720462a8509"]
+  }],
+  "urls": ["https://inoveteste.com.br/"],
+  "plugins": []
+}
